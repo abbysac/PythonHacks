@@ -1,7 +1,7 @@
 
 module "ecs" {
   source                    = "./ECS"
-  vpc_id                    = "vpc-0dc6b4f793fbd07a8"
+  vpc_id                    = "vpc-0e2a2fe453426e1ee"
   cluster_name              = "demo-api-cluster"
   cluster_service_name      = "cloudquicklabs-api-service"
   cluster_service_task_name = "cloudquicklabs-api-task"
