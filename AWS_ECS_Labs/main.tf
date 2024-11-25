@@ -1,12 +1,12 @@
-/*
+
 module "ecs" {
-  source                  = "./ECS"
-  vpc_id                  = "vpc-29568551"
-  cluster_name            = "demo-api-cluster"
-  cluster_service_name    = "cloudquicklabs-api-service"
+  source                    = "./ECS"
+  vpc_id                    = "vpc-0dc6b4f793fbd07a8"
+  cluster_name              = "demo-api-cluster"
+  cluster_service_name      = "cloudquicklabs-api-service"
   cluster_service_task_name = "cloudquicklabs-api-task"
-  vpc_id_subnet_list      = ["subnet-470f460c", "	subnet-34b48b6e", "subnet-9b072be2", "subnet-f78ebadf"]
-  execution_role_arn      = "arn:aws:iam::357171621133:role/ETLlambdaAccessRole"
-  image_id                = "357171621133.dkr.ecr.us-west-2.amazonaws.com/ecsdemo:latest"
+  vpc_id_subnet_list        = ["subnet-003b10aa45a218a79", "subnet-0168829debdaca617", "subnet-05c8654cc2f4883c4"]
+  execution_role_arn        = "arn:aws:iam::224761220970:role/ecsTaskExecutionRole"
+  image_id                  = "224761220970.dkr.ecr.us-east-1.amazonaws.com/ecs-test"
 }
-*/
+
